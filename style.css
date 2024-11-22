@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.container{
+    max-width: 1200px;
+    margin-right: 2rem;
+    padding: 2rem;
+}
 
 .navbar{
     background: #26415e;
@@ -65,6 +70,7 @@
     color: white;
 }
 
+/* Hero Section */
 
 .hero{
     background: #f3dadf;
@@ -213,3 +219,81 @@
     margin-top: 16px;
 }
 
+/* Services Section */
+
+.services{
+    background: #6ba3be;
+    padding: 0 20px;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    justify-content: space-between;
+    
+}
+
+.services h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #26415e;
+    text-shadow: 12px 12px 14px rgb(0,0,0,0.3);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.services-grid{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+}
+
+.services-card{
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s;
+    backdrop-filter: blur(5px);
+}
+
+.services-card1{
+    background: #fda481;
+    padding: 0.5rem;
+    border-radius: 25px;
+    text-align: center;
+    transition: 0.3s;
+    backdrop-filter: blur(5px);
+    width: 370px;
+    justify-self: center;
+    border-style: outset;
+    border-color: silver;
+}
+
+.services-grid :hover{
+    transform: translateY(-10px);
+    background: #fda481;
+    cursor: pointer;
+}
+
+.services-card h3{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #26415e;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.services-card p{
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+services-grid hr{
+    border: none;
+    border-top: 2px solid #26415e;
+}
