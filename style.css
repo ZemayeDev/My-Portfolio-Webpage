@@ -67,7 +67,9 @@
 /* Hero Section */
 
 .hero{
-    background: #f3dadf;
+    background-image: url(Images/bkg11.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 0 20px;
     height: 100vh;
     width: 100%;
@@ -86,22 +88,23 @@
     margin-bottom: 0.2rem;
     text-shadow: 12px 12px 14px rgb(0,0,0,0.3);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #26415e;
+    color: white;
 }
 .hero-content h2{
     font-size: 1.5rem;
     margin-bottom: 1rem;
     text-shadow: 12px 12px 14px rgb(0,0,0,0.3);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #26415e;
+    color: white;
 }
 
 .hero-content p{
     font-size: 1rem;
     margin-bottom: 2rem;
     max-width: 530px;
-    color: #26415e;
+    color: white;
     text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .hero-image{
@@ -168,6 +171,94 @@
     
 }
 
+
+.social-links{
+    display: flex;
+    margin-top: 8rem;
+    gap: 2rem;
+}
+
+
+.social-links a{
+    font-size: 1.3rem;
+    transition: 0.3s;
+    
+}
+
+.social-links a :hover{
+    color: #26415e;
+    transform: translateY(-3px);
+}
+
+.float{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.my-float{
+    margin-top: 16px;
+}
+
+
+/* About Me/Education Section */
+
+.education-content{
+    display: flex;
+    color: white;
+    gap: 5rem;
+    padding-left: 6rem;
+    padding-right: 6rem; 
+    
+}
+
+.education-content p{
+    display: flex;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+.education-content h2{
+    color: yellow;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.education-content h3{
+    color: white;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.education-container{
+    background: black;
+    padding: 2rem;
+    height: 90vh;
+    padding-top: 4rem;
+}
+.education-container2{
+    background-image: url(Images/bkg11.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+    padding-top: 1rem;
+    height: 75vh;
+    width: 120rem;
+}
+
+
 /* Services Section */
 
 .services-container{
@@ -177,7 +268,9 @@
 }
 
 .services{
-    background: #6ba3be;
+    background-image: url(Images/bkg1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 0 20px;
     height: 80vh;
     width: 100%;
@@ -235,14 +328,14 @@
 .services-card h3{
     margin-bottom: 1rem;
     font-size: 1.2rem;
-    color: #26415e;
+    color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
 .services-card p{
     font-size: 1rem;
-    color: white;
+    color: #26415e;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
@@ -253,57 +346,15 @@ services-grid hr{
     border-top: 2px solid #26415e;
 }
 
-/* Footer Section */
-
-.footer{
-    background: #26415e;
-    color: white;
-    padding: 2rem 0 1rem;
-}
 
 
-.social-links{
-    display: flex;
-    margin-top: 8rem;
-    gap: 2rem;
-}
-
-
-.social-links a{
-    font-size: 1.3rem;
-    transition: 0.3s;
-}
-
-.social-links a :hover{
-    color: #26415e;    
-    transform: translateY(-3px);
-}
-
-.float{
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 40px;
-    right: 40px;
-    background-color: #25d366;
-    color: #FFF;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 2px 2px 3px #999;
-    z-index: 100;
-}
-
-.my-float{
-    margin-top: 16px;
-}
-
-
-/* Projects Section */
+/* Projects Section/Contact Me */
 
 .projects{
-    padding: 0 20px;
-    background: #f3dadf;
+   
+    background-image: url(Images/bkg10.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 1rem;
     height: 80vh;
     width: 100%;
@@ -312,16 +363,11 @@ services-grid hr{
 .projects h2{
     text-align: center;
     margin-bottom: 3rem;
-    color: #2c3e50;
-    font-size: 1.5rem;
+    color: white;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.projects-content{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    align-items: center;
-}
 
 .projects-text p{
     line-height: 1.8;
@@ -333,7 +379,8 @@ services-grid hr{
     display: grid;   
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
-    text-align: center;    
+    text-align: center; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
 }
 
 .projects-item{
@@ -359,11 +406,7 @@ services-grid hr{
     margin-bottom: 0.5rem;
 }
 
-.services-grid4{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 1rem;
-}
+
 
 .projects-container2{
     max-width: 1200px;
@@ -396,9 +439,6 @@ services-grid hr{
     float: left;
     margin: 1px;
 }
-
-/* Contact Section */
-
 
 .contact h2{
     text-align: center;
@@ -454,6 +494,7 @@ services-grid hr{
     padding: 2rem;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .info-item{
@@ -466,53 +507,57 @@ services-grid hr{
     font-size: 1.5rem;
     color: #1a2a6c;
 }
-/* Education/About Me Section */
 
-.education-content{
-    display: flex;
+
+
+
+
+
+/* Footer Section */
+
+.footer{
+    background: #26415e;
     color: white;
+    padding: 1rem 0 1rem;
+    display: flex;
     gap: 5rem;
-    padding-left: 6rem;
-    padding-right: 6rem; 
-    
-}
-
-.education-content p{
-    display: flex;
-    color: white;
+    padding-left: 2rem;
+    padding-right: 1rem;
     font-size: small;
-    font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: justify;
-}
-
-.education-content h2{
-    color: yellow;
-    font-size: x-large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.education-content h3{
+.footer-content ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.footer-content a, li{
     color: white;
-    font-size: 1rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style: none;
 }
 
-.education-container{
-    background-image: url(Images/bkg11.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 2rem;
-    height: 90vh;
-    padding-top: 3rem;
+.footer-content a{
+color: white;
+text-decoration: none;
 }
-.education-container2{
-    background-image: url(Images/bkg11.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 2rem;
-    padding-top: 1rem;
-    height: 75vh;
-    width: 120rem;
+
+.footer-socials a{
+    margin-right: 3rem;
+    color: white;
 }
+
+
+.footer-socials :hover{
+    color: yellow;
+    transform: translateY(-3px)    
+}
+
+.footer-content li a:hover{
+    color: red;
+    text-decoration: underline;    
+}
+
 
