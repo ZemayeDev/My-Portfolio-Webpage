@@ -168,29 +168,22 @@
     
 }
 
-/* Footer Section */
-
-.footer{
-    background: #26415e;
-    color: white;
-    padding: 2rem 0 1rem;
-}
-
-
+/*Social Links */
 .social-links{
     display: flex;
     margin-top: 8rem;
+    
 }
 
 
 .social-links a{
     font-size: 1.3rem;
     transition: 0.3s;
+    
 }
 
 .social-links a :hover{
     color: #26415e;
-    
     transform: translateY(-3px);
 }
 
@@ -212,4 +205,56 @@
 .my-float{
     margin-top: 16px;
 }
+
+
+/* Footer Section */
+
+.footer{
+    background: #26415e;
+    color: white;
+    padding: 1rem 0 1rem;
+    display: flex;
+    gap: 5rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-content ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.footer-content a, li{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer-content a{
+color: white;
+text-decoration: none;
+}
+
+.footer-socials a{
+    margin-right: 3rem;
+    color: white;
+}
+
+
+.footer-socials :hover{
+    color: yellow;
+    transform: translateY(-3px)    
+}
+
+.footer-content li a:hover{
+    color: red;
+    text-decoration: underline;    
+}
+
+
+
+
 
