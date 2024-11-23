@@ -250,8 +250,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 2rem;
-    height: 100vh;
-    padding-top: 4.5rem;
+    height: 90vh;
+    padding-top: 3rem;
 }
 .education-container2{
     background-image: url(Images/bkg11.jpeg);
