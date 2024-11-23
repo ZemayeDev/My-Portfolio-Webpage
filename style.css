@@ -67,9 +67,7 @@
 /* Hero Section */
 
 .hero{
-    background-image: url(Images/bkg11.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: #f3dadf;
     padding: 0 20px;
     height: 100vh;
     width: 100%;
@@ -88,23 +86,22 @@
     margin-bottom: 0.2rem;
     text-shadow: 12px 12px 14px rgb(0,0,0,0.3);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
+    color: #26415e;
 }
 .hero-content h2{
     font-size: 1.5rem;
     margin-bottom: 1rem;
     text-shadow: 12px 12px 14px rgb(0,0,0,0.3);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
+    color: #26415e;
 }
 
 .hero-content p{
     font-size: 1rem;
     margin-bottom: 2rem;
     max-width: 530px;
-    color: white;
+    color: #26415e;
     text-align: justify;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .hero-image{
@@ -243,7 +240,9 @@
 }
 
 .education-container{
-    background: black;
+    background-image: url(Images/bkg11.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 2rem;
     height: 90vh;
     padding-top: 4rem;
