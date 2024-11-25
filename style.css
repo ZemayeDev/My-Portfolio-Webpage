@@ -463,17 +463,20 @@ services-grid hr{
     padding: 1rem;
     border: 1.5px solid #ddd;
     border-radius: 8px;
-    font-size: 1rem;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .input-container{
     background-color: white;
     padding: 1rem;
-    border-radius: 8px;
-    
+    border-radius: 8px;   
 }
 
 .contact-form input, .contact-for textarea{
+   color: black;
    outline: none;
    width: 100%;
    text-align: left;
@@ -482,7 +485,7 @@ services-grid hr{
    background: transparent;
    border: none ;
    border-bottom: 1px solid#3b3b3b;
-   font-size: 18px;
+   font-size: 15px;
    padding-left: 0;
    height: 25px;
    margin-bottom: 30px;
